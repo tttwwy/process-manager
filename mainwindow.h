@@ -18,8 +18,11 @@ public:
 private slots:
     void on_pushButton_clicked();
 
+    void on_action_triggered();
+
 private:
     Ui::MainWindow *ui;
+
 };
 
 #endif // MAINWINDOW_H
