@@ -25,14 +25,25 @@
         <string>进程</string>
        </attribute>
        <layout class="QGridLayout" name="gridLayout">
-        <item row="0" column="0">
-         <widget class="QListView" name="listView"/>
-        </item>
         <item row="1" column="0">
          <widget class="QPushButton" name="pushButton">
           <property name="text">
            <string>结束进程</string>
           </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QTreeWidget" name="treeWidget">
+          <column>
+           <property name="text">
+            <string>进程</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>名称</string>
+           </property>
+          </column>
          </widget>
         </item>
        </layout>
