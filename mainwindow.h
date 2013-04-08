@@ -2,7 +2,11 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-
+#include <QDir>
+#include <QDebug>
+#include <QStringList>
+#include <QFile>
+#include <QTextStream>
 namespace Ui {
 class MainWindow;
 }
@@ -17,12 +21,15 @@ public:
     
 private slots:
     void on_pushButton_clicked();
-
+    void showTask();
     void on_action_triggered();
 
 private:
     Ui::MainWindow *ui;
     QTimer *timer;
+    QDir dir;
+    QFile file;
+
 
 };
 
