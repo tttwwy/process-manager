@@ -1,4 +1,3 @@
-process-manager
+Linux进程管理器
 ===============
-
-An interactive process manager.
+Linux进程管理器，可以查看进程详细信息以及结束进程
